@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 100%;
+  width: 1000px;
+  height: 700px;
+  background-color: greenyellow;
+  justify-content: center;
+  margin: 0 auto;
+}
+.im img {
+  width: 90px;
+  border-radius: 50%;
+}
+.box img {
+  width: 100%;
+}
+.box {
+  background-image: url(../images/FIFA-Club-World-2025.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mers-img {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: animatioName;
+  position: relative;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  opacity: 1;
+}
+#loading.loading-none {
+  opacity: 0;
+  z-index: -999;
+}
+.mers-img :hover {
+  background-color: rgb(43, 0, 255);
+}
+@keyframes animatioName {
+  from {
+    background-color: brown;
+  }
+  to {
+    background-color: aqua;
+  }
+  0% {
+    top: 0;
+    left: 0;
+    background-image: url(../images/real.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  25% {
+    top: 0;
+    left: 800px;
+    background-image: url(../images/city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  75% {
+    top: 500px;
+    left: 800px;
+    background-image: url(../images/Manchester_United_FC_crest.svg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    top: 500px;
+    bottom: 500px;
+    left: 0;
+    background-image: url(../images/UFA_-_Uzbekistan_Football_Association.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@keyframes ldio-yzaezf3dcmj {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.ldio-yzaezf3dcmj div {
+  position: absolute;
+  animation: ldio-yzaezf3dcmj 1s linear infinite;
+  box-sizing: border-box !important;
+}
+.ldio-yzaezf3dcmj div:nth-child(1) {
+  width: 44px;
+  height: 44px;
+  left: 34px;
+  top: 128px;
+  border-radius: 50%;
+  background: #f47e60;
+}
+.ldio-yzaezf3dcmj div:nth-child(2) {
+  width: 66px;
+  height: 66px;
+  left: 56px;
+  top: 84px;
+  border-radius: 0 66px 0 0;
+  border: 20px solid #f8b26a;
+  background: none;
+  animation-delay: 0.1s;
+  border-bottom: 0;
+  border-left: 0;
+}
+.ldio-yzaezf3dcmj div:nth-child(3) {
+  width: 110px;
+  height: 110px;
+  left: 56px;
+  top: 40px;
+  border-radius: 0 110px 0 0;
+  border: 20px solid #abbd81;
+  background: none;
+  animation-delay: 0.2s;
+  border-bottom: 0;
+  border-left: 0;
+}
+.loadingio-spinner-radio-2by998twmg8 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-yzaezf3dcmj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-yzaezf3dcmj div {
+  box-sizing: content-box;
+}
